@@ -98,7 +98,7 @@ header h1 {
 /* Gaya navigasi */
 nav ul {
     display: flex;
-    list-style: none;
+    list-style: square inside;
 }
 
 nav ul li {
@@ -117,13 +117,9 @@ nav ul li a:hover {
     color: #ffd700;
 }
 
-
-/* Main content styles */
-/* main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-} */
+h2, h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 section {
     /* background-color: #fff;
@@ -264,7 +260,7 @@ footer {
 
 footer nav ul {
     display: flex;
-    list-style: none;
+    list-style: circle inside;
 }
 
 footer nav ul li {
