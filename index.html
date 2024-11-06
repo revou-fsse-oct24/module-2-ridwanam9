@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapurku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-title">
+                <img src="assets/images/logo.png" alt="Dapurku Logo" class="logo">
+                <h1>Dapurku</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            <button id="menu-toggle" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+    
+    
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Selamat Datang di Dapurku</h2>
+                <p>Nikmati kelezatan masakan Indonesia dalam suasana yang nyaman</p>
+                <a href="#services" class="cta-button">Jelajahi Layanan Kami</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>Tentang Kami</h2>
+                <p>Dapurku adalah sebuah resto yang terletak di kota Pontianak di mana kami menyediakan makanan-makanan khas dari berbagai daerah di seluruh Indonesia. Website Dapurku memungkinkan Anda untuk memesan makanan secara online dan melakukan reservasi meja dengan mudah, tanpa perlu datang langsung ke restoran.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Layanan Kami</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i data-lucide="utensils"></i>
+                        </div>
+                        <h3>Pesan Makanan</h3>
+                        <p>Pesan makanan favorit Anda secara online dan nikmati kenyamanan pengiriman langsung ke rumah Anda.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i data-lucide="calendar"></i>
+                        </div>
+                        <h3>Reservasi Online</h3>
+                        <p>Booking meja Anda secara online untuk memastikan pengalaman makan yang nyaman tanpa harus menunggu.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Hubungi Kami</h2>
+                <div class="contact-grid">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <fieldset>
+                                <legend>Metode Kontak:</legend>
+                                <label>
+                                    <input type="radio" name="contact-pref" value="email">
+                                    Email
+                                </label>
+                                <label>
+                                    <input type="radio" name="contact-pref" value="phone">
+                                    Hp
+                                </label>
+                            </fieldset>
+                        </div>
+                        <button type="submit">Kirim Pesan</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>Jl. Contoh No. 123, Pontianak, Indonesia</span>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="phone"></i>
+                            <span>+62 123 4567 890</span>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="mail"></i>
+                            <span>info@dapurku.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Dapurku Logo" class="logo">
+                    <span>Dapurku</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dapurku. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
