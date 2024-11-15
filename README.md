@@ -75,7 +75,7 @@ Setelah proses deployment selesai, kamu akan diberikan URL unik dari Netlify. Bu
 
 ![Site Deployed Successful](assets/images_documentation/DeploySuccess1.png)
 
-## Netlify Site URL
+## Link Website Dapurku
 - Live Site: [Dapurku](https://dapurku.site/).
 
 ## Custom Domain
